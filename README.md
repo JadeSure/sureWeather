@@ -2,6 +2,8 @@
 
 ### Introduction
 This application is built by React with Material UI and SCSS as the front end and Nodejs + MongoDB as the backend, which combined lots of frontend and backend technologies including JWT saved in local storage, hash password in MongoDB, middleware for authGuard, bunch of validation in forms, Chart.js demo rainfall precipitation per minute and the combination of different MUI components combinations.
+
+#### Click the first image to watch demo video
 [![Watch the video](/images/Main.png)](https://www.youtube.com/watch?v=zrF5VAHHyQ4)
 ### Main Page
 On the main page, people can access current weather in the AU main city, such as Melbourne, Sydney. The background images will be changed based on current weather conditions, such as a thunderstorm or clear. Users can register accounts to access richer features
