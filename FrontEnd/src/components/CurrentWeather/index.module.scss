@@ -1,0 +1,83 @@
+.loginButton{
+    // padding: 5rem;
+    // margin-right: 2rem;
+
+    top: 1rem;
+    left: 90%;
+}
+
+.container {
+    position: fixed;
+    top: 0;  
+    left: 0;
+    width: 100%;
+    height: 100%;
+    // min-width: 2000px;
+    z-index: -10;
+    zoom: 1;
+ 
+    // background-color: #fff;
+    // background: url(../../assets/images/thunderstorm.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-position: center 0;
+
+
+   
+        .paperDark{
+            color: white;
+            border-color: white;
+            border-bottom: white;
+        }
+        .paperlight{
+            color: black;
+            border-color: black;
+            border-bottom: black;
+        }
+
+        .currentWeatherPaper{
+            // filter: alpha(opacity=30); 
+            // -moz-opacity: 0.3;  
+            // -ms-opacity: 0.3;  
+            // -webkit-opacity: 0.3; 
+            
+            width: 35vw;
+            height: 60vh;
+            margin: 15vh auto;
+            top: 50%;
+            background-color: rgba(255, 255, 255, 0.2);
+            padding: 2vh;
+            border-radius: 30px;
+
+            // display: flex;
+            // flex-direction: column;
+            // justify-content : center;
+            
+
+            .currentWeatherCity{
+              
+                display: flex;
+                justify-content: center;
+             
+                width: 50%;
+            }
+
+            .currentWeatherCard{
+                background-color: rgba(255, 255, 255, 0.1);
+                // -moz-opacity: 1;
+                // -ms-opacity: 1;  
+                // -webkit-opacity: 0.2; 
+            } 
+            :global{
+                .css-9nyto0-MuiPaper-root-MuiCard-root{
+                    background-color: rgba(255, 255, 255, 0.1);
+                }
+            }
+        }
+}
+
+
+
+

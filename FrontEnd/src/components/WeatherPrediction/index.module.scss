@@ -1,0 +1,72 @@
+.container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+   
+    
+    .container__button{
+        background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+        border: 0;
+        border-radius: 3;
+        box-shadow: 0 3px 5px 2px rgba(255, 105, 135, .3);
+        color: white;
+        height: 50;
+        display: block;
+        position: relative;
+        margin-top: 2rem;
+    }
+
+    .container__textfiled{
+        background-color: rgba(255,255,255, 0);
+        margin-top: 0;
+    }
+    .container__error{
+        display: absolute;
+        align-items: center;
+        color: red;
+    }
+}
+.logoutButton{
+
+    z-index: 2;
+    color: pink;
+    top: 0;
+    left: 80%;
+    
+    
+}
+
+
+
+.weatherContainer{
+    display: flex;
+    direction: column;
+    padding-left: 1rem;
+
+    .weatherContainer__tableRow{
+       padding: 1.5rem 0;
+  
+    }
+   
+}
+
+.todayWeatherContainer{
+    display: flex;
+    direction: row;
+    justify-content: center;
+    padding: 1rem 1rem;
+    
+    .todayWeatherContainer__icon{
+        display: relative;
+
+        margin-left: -5rem;
+        font-size: 2.5rem
+    }
+    
+}
+
+
+
+
+
